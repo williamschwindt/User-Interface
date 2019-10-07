@@ -55,7 +55,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Underdog', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,3 +65,142 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header { 
+    display: block;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+nav ul li {
+    text-align: center;
+    font-size: 120%; 
+    display: inline-block;
+    width: 13%;
+    vertical-align: middle;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    transition: .3s;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px;
+}
+
+.slogan {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 8%;
+}
+
+#main-text {
+    display: inline-block;
+    font-size: 400%;
+    text-align: center;
+}
+
+.slogan button {
+    display: block;
+    font-size: 150%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.slogan button:hover {
+    transition: .3s;
+    filter: brightness(70%);
+    box-shadow: 0px 0px 5px;
+}
+
+.main-img {
+    width: 40%;
+    display: inline-block;
+}
+
+.upper-content {
+    margin-bottom: 50px;
+}
+
+.features {
+    display: inline-block;
+    width: 48%;
+    margin-right: 3%;
+}
+
+.about {
+    width: 48%;
+    display: inline-block;
+}
+
+.middle-img {
+    width: 100%;
+    margin-bottom: 40px;
+    
+}
+
+.bottom-content {
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.vision {
+    display: inline-block;
+    width: 30%;
+}
+
+.contact { margin-bottom: 20px; }
+
+.contact-info li {
+    padding: 1% 0;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
